@@ -11,11 +11,11 @@ services:
       MYSQL_DATABASE: prestashop
     volumes:
       - db:/var/lib/mysql
-      - ./dump.sql:/docker-entrypoint-initdb.d/setup.sql
+      - ./config/dump.sql:/docker-entrypoint-initdb.d/setup.sql
   prestashop:
     depends_on:
       - my-sql
-    image: 50afa522c4d7
+    image: c7f29f1321dd #tutaj trzeba zmienic id image 
     ports:
       - 8080:80
       - 443:443

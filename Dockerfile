@@ -2,8 +2,7 @@ FROM prestashop/prestashop:latest
 
 RUN rm -rf /var/www/html/*
 COPY ./html /var/www/html
-RUN chmod -R 777 /var/www/html/var/cache
-RUN chmod -R 777 /var/www/html/var/logs
+RUN chmod -R 777 /var/www/html
 
 COPY ./config/apache-selfsigned.key /etc/ssl/private/apache-selfsigned.key
 COPY ./config/apache-selfsigned.crt /etc/ssl/certs/apache-selfsigned.crt
