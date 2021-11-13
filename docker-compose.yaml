@@ -1,0 +1,34 @@
+version: '3.3'
+
+services:
+  my-sql:
+    image: mysql:5.7
+    ports:
+      - 3307:3306
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: prestashop
+    volumes:
+      - db:/var/lib/mysql
+      - ./dump.sql:/docker-entrypoint-initdb.d/setup.sql
+  prestashop:
+    depends_on:
+      - my-sql
+    image: 50afa522c4d7
+    ports:
+      - 8080:80
+      - 443:443
+    restart: always
+    environment:
+      DB_SERVER: my-sql
+      DB_USER: root
+      DB_PASSWD: root
+      DB_NAME: lamper
+      PS_DEV_MODE: 1
+      PS_FOLDER_ADMIN: admin123
+    volumes:
+      - prestashop:/var/www/html
+volumes:
+  prestashop:
+  db:
