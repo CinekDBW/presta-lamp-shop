@@ -1,0 +1,23 @@
+"Category ID";"Active (0/1)";"Name *";"Parent category";"Root category (0/1)"
+10;1;"Lampy podłogowe";"Strona główna";0
+11;1;"Drewniane";"Lampy podłogowe";0
+12;1;"Metalowe";"Lampy podłogowe";0
+20;1;"Lampy sufitowe i żyrandole";"Strona główna";0
+21;1;"1-płomienne";"Lampy sufitowe i żyrandole";0
+22;1;"2-płomienne";"Lampy sufitowe i żyrandole";0
+23;1;"3-płomienne";"Lampy sufitowe i żyrandole";0
+24;1;"4-płomienne";"Lampy sufitowe i żyrandole";0
+25;1;"5-płomienne";"Lampy sufitowe i żyrandole";0
+26;1;"6-płomienne";"Lampy sufitowe i żyrandole";0
+27;1;"8-płomienne";"Lampy sufitowe i żyrandole";0
+28;1;"12-płomienne";"Lampy sufitowe i żyrandole";0
+30;1;"Półplafony i plafony";"Strona główna";0
+31;1;"1-płomienne";"Półplafony i plafony";0
+32;1;"2-płomienne";"Półplafony i plafony";0
+33;1;"3-płomienne";"Półplafony i plafony";0
+40;1;"Kinkiety";"Strona główna";0
+50;1;"Lampki nocne i biurkowe";"Strona główna";0
+60;1;"Lampy dla dzieci";"Strona główna";0
+70;1;"Żarówki";"Strona główna";0
+80;1;"Nowości";"Strona główna";0
+90;1;"Promocje";"Strona główna";0
