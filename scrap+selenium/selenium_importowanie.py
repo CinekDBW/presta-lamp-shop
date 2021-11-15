@@ -13,6 +13,9 @@ driver.maximize_window()
 
 driver.get("http://localhost:8080/admin123")
 
+driver.find_element(By.XPATH, '//*[@id="details-button"]').click()
+driver.find_element(By.XPATH, '//*[@id="proceed-link"]').click()
+
 driver.find_element(By.XPATH, '//*[@id="email"]').send_keys('lamper@lamper.com')
 driver.find_element(By.XPATH, '//*[@id="passwd"]').send_keys('lamper123')
 driver.find_element(By.XPATH, '//*[@id="submit_login"]').click()
