@@ -15,7 +15,7 @@ services:
   prestashop:
     depends_on:
       - my-sql
-    image: c7f29f1321dd #tutaj trzeba zmienic id image 
+    image: 5965773c828a #tutaj trzeba zmienic id image
     ports:
       - 8080:80
       - 443:443
@@ -25,7 +25,6 @@ services:
       DB_USER: root
       DB_PASSWD: root
       DB_NAME: lamper
-      PS_DEV_MODE: 1
       PS_FOLDER_ADMIN: admin123
     volumes:
       - prestashop:/var/www/html
