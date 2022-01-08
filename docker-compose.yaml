@@ -1,33 +1,20 @@
 version: '3.3'
 
 services:
-  my-sql:
-    image: mysql:5.7
+  be_180197_presta:
+    image: cinekdbw/lamper
     ports:
-      - 3307:3306
+      - 18019:80
+      - 18020:443
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: prestashop
-    volumes:
-      - db:/var/lib/mysql
-      - ./config/dump.sql:/docker-entrypoint-initdb.d/setup.sql
-  prestashop:
-    depends_on:
-      - my-sql
-    image: 5965773c828a #tutaj trzeba zmienic id image
-    ports:
-      - 8080:80
-      - 443:443
-    restart: always
-    environment:
-      DB_SERVER: my-sql
-      DB_USER: root
-      DB_PASSWD: root
-      DB_NAME: lamper
+      DB_SERVER: actina15.maas
+      DB_USER: be_180197
+      DB_PASSWD: lamper123
+      DB_NAME: be_180197_db
       PS_FOLDER_ADMIN: admin123
-    volumes:
-      - prestashop:/var/www/html
-volumes:
-  prestashop:
-  db:
+      PS_DEV_MODE: 0
+      ALLOW_OVERRIDE: 1
+      PS_INSTALL_AUTO: 0
+    deploy:
+      replicas: 1
