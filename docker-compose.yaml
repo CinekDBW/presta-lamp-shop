@@ -1,8 +1,8 @@
 version: '3.3'
 
 services:
-  be_180197_presta:
-    image: cinekdbw/lamper
+  zespolR:
+    image: cinekdbw/be_180197
     ports:
       - 18019:80
       - 18020:443
