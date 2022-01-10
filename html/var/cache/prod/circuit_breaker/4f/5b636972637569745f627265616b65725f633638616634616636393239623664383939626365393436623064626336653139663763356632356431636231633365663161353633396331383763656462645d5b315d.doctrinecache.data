@@ -1,0 +1,91 @@
+1641825610
+s:6207:"<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.prestashop.com/pl/blog/feed.xml" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:og="http://ogp.me/ns#" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <channel>
+    <title>Blog Feed</title>
+    <link>https://www.prestashop.com/pl/blog/feed.xml</link>
+    <description></description>
+    <language>pl</language>
+     <atom:link href="https://www.prestashop.com/pl/blog/feed.xml" rel="self" type="application/rss+xml" />
+      <item>
+    <title>E-commerce 2022: 10 kluczowych trendów rozszyfrowanych</title>
+    <link>https://www.prestashop.com/pl/blog/ecommerce-trends-2022</link>
+    <description>Jak stale powtarzamy, globalna pandemia umożliwiła spektakularny postęp w e-handlu.</description>
+     <pubDate>Tue, 04 Jan 2022 12:12:31 +0100</pubDate>
+ <dc:creator>PrestaShop Team</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/pl/blog/ecommerce-trends-2022</guid>
+  </item>
+  <item>
+    <title>Instalacja PrestaShop: kompletny poradnik</title>
+    <link>https://www.prestashop.com/pl/blog/jak-zainstalowac-prestashop</link>
+    <description>W tym momencie jest ponad 300 000 aktywnych sklepów na PrestaShop.</description>
+     <pubDate>Tue, 04 Jan 2022 12:00:00 +0100</pubDate>
+ <dc:creator>Krystian Podemski</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/pl/blog/jak-zainstalowac-prestashop</guid>
+  </item>
+  <item>
+    <title>Jak przygotować sklep internetowy do sprzedaży międzynarodowej?</title>
+    <link>https://www.prestashop.com/pl/blog/internetowy-miedzynarodowej</link>
+    <description>Internet niemal nie zna granic - również w perspektywie ecommerce.</description>
+     <pubDate>Wed, 29 Dec 2021 10:54:52 +0100</pubDate>
+ <dc:creator>Mateusz Osiecki</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/pl/blog/internetowy-miedzynarodowej</guid>
+  </item>
+  <item>
+    <title>PrestaShop Live Talks Polska - skalowanie biznesu online na przykładzie MeblujDom.pl</title>
+    <link>https://www.prestashop.com/pl/blog/.</link>
+    <description>W grudniowym Live Talk, Krystian Podemski, który jest Tech Evangelistą PrestaShop w Polsce, miał przyjemność rozmawiać z Erykiem Wróblem, który jest specjalistą ds.</description>
+     <pubDate>Wed, 29 Dec 2021 10:48:39 +0100</pubDate>
+ <dc:creator>Krystian Podemski</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/pl/blog/.</guid>
+  </item>
+  <item>
+    <title>Customer Journey Map w sklepie internetowym</title>
+    <link>https://www.prestashop.com/pl/blog/customer-journey</link>
+    <description>Jaką podróż możemy określić mianem szczęśliwej? Taką, którą miło wspominamy i która zaprowadziła nas do celu bez większych komplikacji i nieprzyjemności.</description>
+     <pubDate>Wed, 29 Dec 2021 10:44:27 +0100</pubDate>
+ <dc:creator>Mateusz Osiecki</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/pl/blog/customer-journey</guid>
+  </item>
+  <item>
+    <title>Dziewięć wskazówek, jak przygotować się do wyprzedaży</title>
+    <link>https://www.prestashop.com/pl/blog/dziewiec-porady-sprzedazy</link>
+    <description>W całej Europie zimowe wyprzedaże rozpoczynają się na początku roku. Ze wzrostem o 1,9% w 2021 roku, siła nabywcza Europejczyków znajduje się na fali wznoszącej, osiągając poziom 15 055 euro.</description>
+     <pubDate>Mon, 27 Dec 2021 14:29:01 +0100</pubDate>
+ <dc:creator>PrestaShop Team</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/pl/blog/dziewiec-porady-sprzedazy</guid>
+  </item>
+  <item>
+    <title>Facebook i Instagram Ads dla ecommerce – jak stworzyć skuteczną kampanię?</title>
+    <link>https://www.prestashop.com/pl/blog/kampanii-facebook-instagram-ads</link>
+    <description>Reklama w mediach społecznościowych to jedna z najpopularniejszych i najskuteczniejszych metod promocji produktów ecommerce w internecie. Dlaczego? </description>
+     <pubDate>Mon, 27 Dec 2021 11:47:53 +0100</pubDate>
+ <dc:creator>Mateusz Osiecki</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/pl/blog/kampanii-facebook-instagram-ads</guid>
+  </item>
+  <item>
+    <title>PrestaShop Live Talks: Tech Update Grudzień 2021</title>
+    <link>https://www.prestashop.com/pl/blog/live-talks-grudzien</link>
+    <description>W Grudniowym Tech / Product update, Krystian Podemski Tech Evangelista PrestaShop w Polsce, mówił m.in. o nowościach w ekosystemie PrestaShop i zmianach, które będą elementem PrestaShop 8.</description>
+     <pubDate>Thu, 23 Dec 2021 17:35:32 +0100</pubDate>
+ <dc:creator>Krystian Podemski</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/pl/blog/live-talks-grudzien</guid>
+  </item>
+  <item>
+    <title>PrestaShop Live Talks Polska - SXO w ecommerce</title>
+    <link>https://www.prestashop.com/pl/blog/sxo-ecommerce-livetalk</link>
+    <description>W ramach Live Talks rozmawiamy z ekspertami z branży o tematach, które mogą być szczególnie interesujące dla osób posiadających sklepy internetowe.</description>
+     <pubDate>Mon, 20 Dec 2021 17:57:05 +0100</pubDate>
+ <dc:creator>Krystian Podemski</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/pl/blog/sxo-ecommerce-livetalk</guid>
+  </item>
+  <item>
+    <title>Pięć wskazówek dotyczących rozwoju biznesu międzynarodowego </title>
+    <link>https://www.prestashop.com/pl/blog/wskazowek-biznesu-miedzynarodowego</link>
+    <description>Dzięki internetowi sprzedaż nie ma już żadnych granic. W skali międzynarodowej handel elektroniczny rośnie w tempie 30% proc.</description>
+     <pubDate>Tue, 14 Dec 2021 14:30:40 +0100</pubDate>
+ <dc:creator>PrestaShop Team</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/pl/blog/wskazowek-biznesu-miedzynarodowego</guid>
+  </item>
+  </channel>
+</rss>
+";

@@ -4,10 +4,11 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 
-SCIEZKA_PLIKOW = 'D:\BIZNES_ELEKTRONICZNY'
+SCIEZKA_PLIKOW = 'C:\Projects\presta-lamp-shop\scrap+selenium'
 
 
-s = Service("C:\Program Files\chromedriver.exe")
+s = Service("C:\Apps\chromedriver_win32\chromedriver.exe")
+
 driver = webdriver.Chrome(service=s)
 driver.maximize_window()
 

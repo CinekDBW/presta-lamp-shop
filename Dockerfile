@@ -11,7 +11,7 @@ COPY ./config/php.ini /usr/local/etc/php/php.ini
 
 COPY ./config/ssl-params.conf /etc/apache2/conf-available/ssl-params.conf
 COPY ./config/default-ssl.conf /etc/apache2/sites-available/default-ssl.conf
-# COPY ./config/000-default.conf /etc/apache2/sites-available/000-default.conf
+COPY ./config/000-default.conf /etc/apache2/sites-available/000-default.conf
 
 RUN a2enmod ssl
 RUN a2enmod headers

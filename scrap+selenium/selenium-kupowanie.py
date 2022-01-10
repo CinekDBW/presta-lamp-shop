@@ -4,7 +4,8 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
-s = Service("C:\Program Files\chromedriver.exe")
+
+s = Service("C:\Apps\chromedriver_win32\chromedriver.exe")
 driver = webdriver.Chrome(service=s)
 driver.maximize_window()
 
@@ -104,7 +105,7 @@ driver.find_element(By.XPATH, '//*[@id="main"]/div/div[2]/div[1]/div[2]/div/a').
 driver.find_element(By.XPATH, '//*[@id="field-id_gender-1"]').click()
 driver.find_element(By.XPATH, '//*[@id="field-firstname"]').send_keys('Bot imie')
 driver.find_element(By.XPATH, '//*[@id="field-lastname"]').send_keys('Bot nazwisko')
-driver.find_element(By.XPATH, '//*[@id="field-email"]').send_keys('bot@bot.com')
+driver.find_element(By.XPATH, '//*[@id="field-email"]').send_keys('mrcinekdbw@gmail.com')
 driver.find_element(By.XPATH, '//*[@id="field-password"]').send_keys('lamper123')
 driver.find_element(By.XPATH, '//*[@id="field-birthday"]').send_keys('1971-01-11')
 driver.find_element(By.XPATH, '//*[@id="customer-form"]/div/div[7]/div[1]/span/label/input').click()
